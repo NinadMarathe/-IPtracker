@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 17px;
+    color: cadetblue;
+    line-height: 1.6;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul.topnav li {float:left;}
+
+
+ul.topnav li a {
+  display: block;
+  color: whitesmoke;
+    font-family:monospace;
+  text-align: center;
+  padding: 8px 50px;
+    font-size: 17px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color:cadetblue;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+
+
+
+
+
+
+
+
+#sc{
+    background-image: url("981.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#sc h4{
+    font-size: 86px;
+    line-height: 1.2;
+    font-family: monospace;
+    text-align: center;
+}
+
+#sc p{
+    font-size: 20px;
+}
+
+#sc .button{
+    font-size: 24px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: cadetblue 2px solid;
+    padding: 10px 20px;
+    font-family: fantasy;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#sc .button:hover{
+    background: cadetblue;
+    color: floralwhite;
+}
+
+#seca{
+    padding: 27px;
+    background:azure;
+    font-size: 13px;
+    color:black;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+
+#secb{
+    padding: 26px;
+    font-size: 13px;
+    color:dimgrey;
+    background:white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#secc{
+    padding: 30px;
+    font-size: 13px;
+    color:whitesmoke;
+    background:black;
+    text-align: left;
+    font-family: sans-serif;
+}
